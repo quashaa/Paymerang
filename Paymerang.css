@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+    background-color: #DEDEDE;
+    color: #333;
+    padding: 20px 0 28px 0;
+    margin: 0;
+}
+
+.banner {
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0px auto;
+    background-color: #B70755;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+.home{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.page-title {
+    text-align: left;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #B70755;
+}
+
+.payments-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+th {
+    color: #FFF;
+    background-color: #B70755;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(222, 222, 222, 0.5);
+}
+
+td{
+    font-size: .9rem;
+}
+
+.content {
+    width: 1000px;
+    padding: 20px;
+    margin: 0px auto;
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+.payee-name {
+    text-decoration: none;
+    color: black;
+}
+
+.payee-container{
+    width: 400px; 
+    float: left;
+}
+
+.payee-table {
+    width: 500px;
+    border-collapse: collapse;
+    float: left;
+}
+
+.card-details {
+    float: right;
+    border: 3px solid #B70755;
+    padding: 40px;
+    width: 300px;
+    box-shadow: 0 0 8px #aaa;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.remittance-container{
+    float: left;
+    width: 100%;
+}
+.remittance-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.footer {
+    font-size: .7rem;
+    color: #B70755;
+    text-align: center;
+    margin: 30px;
+}
